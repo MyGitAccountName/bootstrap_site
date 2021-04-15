@@ -1,0 +1,56 @@
+header {
+    position: relative;
+    height: 100vh;
+}
+
+.overlay {
+    background: url("../images/bg.jpg") no-repeat center/cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.navbar {
+    background-color: #dec9c3;
+    opacity: 0.8;
+}
+
+.nav-link, .navbar-brand {
+    color: #4f4f4f;
+}
+
+.nav-link:hover {
+    background-color: #f1efed;
+    color:grey;
+}
+
+/* team-start */
+.team, .team-item {
+    position: relative;
+}
+
+.team-des {
+    background-color: #dec9c3;
+    position: absolute;
+    text-align: center;
+    bottom: 24px;
+    width: 90%;
+    border-top-right-radius: 93%;
+    transition: 0.3s ease-in-out;
+}
+
+.team-item:hover .team-des {
+    height: calc(100% - 24px);
+    background-color: #dec9c3;
+    opacity: 0.4;
+    padding: 2rem;
+    border-top-right-radius: 0;
+}
+
+/* team-end */
+
+
